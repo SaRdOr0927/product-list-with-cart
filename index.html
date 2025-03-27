@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Css/style.css">
+    <title>product-list-with-cart</title>
+</head>
+<body>
+    
+    <div class="container">
+      <div class="flex">
+        <h1 class="siteshop-menu__title">Desserts</h1>
+        <div class="card-menu">
+          <div class="card-container">
+          <div class="card">
+              <img src="./IMG/Item Image.jpg" alt="Item Image.jpg">
+              <div class="card-content">
+                  <p class="Waffle">Waffle</p>
+                  <p class="title">Waffle with Berries</p>
+                  <p class="price">$6.50</p>
+                  <button class="cart-button" id="b1"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+                      <g clip-path="url(#clip0_331_197)">
+                        <path d="M6.5835 18.75C7.27385 18.75 7.8335 18.1904 7.8335 17.5C7.8335 16.8096 7.27385 16.25 6.5835 16.25C5.89314 16.25 5.3335 16.8096 5.3335 17.5C5.3335 18.1904 5.89314 18.75 6.5835 18.75Z" fill="#C73B0F"/>
+                        <path d="M15.3335 18.75C16.0239 18.75 16.5835 18.1904 16.5835 17.5C16.5835 16.8096 16.0239 16.25 15.3335 16.25C14.6431 16.25 14.0835 16.8096 14.0835 17.5C14.0835 18.1904 14.6431 18.75 15.3335 18.75Z" fill="#C73B0F"/>
+                        <path d="M3.446 1.7525C3.41769 1.61087 3.3412 1.48341 3.22954 1.3918C3.11787 1.3002 2.97793 1.25009 2.8335 1.25H0.333496V2.5H2.321L4.721 14.4975C4.7493 14.6391 4.82579 14.7666 4.93746 14.8582C5.04912 14.9498 5.18906 14.9999 5.3335 15H16.5835V13.75H5.846L5.346 11.25H16.5835C16.7257 11.25 16.8636 11.2015 16.9745 11.1125C17.0854 11.0235 17.1626 10.8994 17.1935 10.7606L18.611 4.375H17.3316L16.0822 10H5.096L3.446 1.7525Z" fill="#C73B0F"/>
+                        <path d="M11.5835 3.75V1.25H10.3335V3.75H7.8335V5H10.3335V7.5H11.5835V5H14.0835V3.75H11.5835Z" fill="#C73B0F"/>
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_331_197">
+                          <rect width="20" height="20" fill="white" transform="translate(0.333496)"/>
+                        </clipPath>
+                      </defs>
+                    </svg>Add to Cart
+                  </button>
+                  <div class="main__product-number" id="n1">
+                    <div class="center">
+                      <button class="main__product-btn fa-reg minus" data-symbol="-"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M10 2.5C14.125 2.5 17.5 5.875 17.5 10C17.5 14.125 14.125 17.5 10 17.5C5.875 17.5 2.5 14.125 2.5 10C2.5 5.875 5.875 2.5 10 2.5ZM10 1.25C5.1875 1.25 1.25 5.1875 1.25 10C1.25 14.8125 5.1875 18.75 10 18.75C14.8125 18.75 18.75 14.8125 18.75 10C18.75 5.1875 14.8125 1.25 10 1.25Z" fill="white"/>
+                        <path d="M5 9.375H15V10.625H5V9.375Z" fill="white"/>
+                      </svg></button>
+                      <!-- Minus knopkasi -->
+                      <output class="main__product-num">0</output>
+                    
+                    
+                      <button class="main__product-btn fa-reg plus" data-symbol="+"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M10 2.5C14.125 2.5 17.5 5.875 17.5 10C17.5 14.125 14.125 17.5 10 17.5C5.875 17.5 2.5 14.125 2.5 10C2.5 5.875 5.875 2.5 10 2.5ZM10 1.25C5.1875 1.25 1.25 5.1875 1.25 10C1.25 14.8125 5.1875 18.75 10 18.75C14.8125 18.75 18.75 14.8125 18.75 10C18.75 5.1875 14.8125 1.25 10 1.25Z" fill="white"/>
+                        <path d="M15 9.375H10.625V5H9.375V9.375H5V10.625H9.375V15H10.625V10.625H15V9.375Z" fill="white"/>
+                      </svg></button>
+                      <!-- Plus knopkasi -->
+                      </div>
+                  </div>
+              </div>
+          </div>
+          </div>
+          <div class="card-container">
+          <div class="card">
+              <img src="./IMG/Item Image (1).jpg" alt="Item Image.jpg">
+              <div class="card-content">
+                  <p class="Waffle">Crème Brûlée</p>
+                  <p class="title">Vanilla Bean Crème Brûlée</p>
+                  <p class="price">$7.00</p>
+                  <button class="cart-button" id="b2"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+                      <g clip-path="url(#clip0_331_197)">
+                        <path d="M6.5835 18.75C7.27385 18.75 7.8335 18.1904 7.8335 17.5C7.8335 16.8096 7.27385 16.25 6.5835 16.25C5.89314 16.25 5.3335 16.8096 5.3335 17.5C5.3335 18.1904 5.89314 18.75 6.5835 18.75Z" fill="#C73B0F"/>
+                        <path d="M15.3335 18.75C16.0239 18.75 16.5835 18.1904 16.5835 17.5C16.5835 16.8096 16.0239 16.25 15.3335 16.25C14.6431 16.25 14.0835 16.8096 14.0835 17.5C14.0835 18.1904 14.6431 18.75 15.3335 18.75Z" fill="#C73B0F"/>
+                        <path d="M3.446 1.7525C3.41769 1.61087 3.3412 1.48341 3.22954 1.3918C3.11787 1.3002 2.97793 1.25009 2.8335 1.25H0.333496V2.5H2.321L4.721 14.4975C4.7493 14.6391 4.82579 14.7666 4.93746 14.8582C5.04912 14.9498 5.18906 14.9999 5.3335 15H16.5835V13.75H5.846L5.346 11.25H16.5835C16.7257 11.25 16.8636 11.2015 16.9745 11.1125C17.0854 11.0235 17.1626 10.8994 17.1935 10.7606L18.611 4.375H17.3316L16.0822 10H5.096L3.446 1.7525Z" fill="#C73B0F"/>
+                        <path d="M11.5835 3.75V1.25H10.3335V3.75H7.8335V5H10.3335V7.5H11.5835V5H14.0835V3.75H11.5835Z" fill="#C73B0F"/>
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_331_197">
+                          <rect width="20" height="20" fill="white" transform="translate(0.333496)"/>
+                        </clipPath>
+                      </defs>
+                    </svg>Add to Cart
+                  </button>
+                  <div class="main__product-number" id="n2">
+                    <div class="center">
+                      <button class="main__product-btn fa-reg minus" data-symbol="-"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M10 2.5C14.125 2.5 17.5 5.875 17.5 10C17.5 14.125 14.125 17.5 10 17.5C5.875 17.5 2.5 14.125 2.5 10C2.5 5.875 5.875 2.5 10 2.5ZM10 1.25C5.1875 1.25 1.25 5.1875 1.25 10C1.25 14.8125 5.1875 18.75 10 18.75C14.8125 18.75 18.75 14.8125 18.75 10C18.75 5.1875 14.8125 1.25 10 1.25Z" fill="white"/>
+                        <path d="M5 9.375H15V10.625H5V9.375Z" fill="white"/>
+                      </svg></button>
+                      <!-- Minus knopkasi -->
+                      <output class="main__product-num">0</output>
+                    
+                    
+                      <button class="main__product-btn fa-reg plus" data-symbol="+"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M10 2.5C14.125 2.5 17.5 5.875 17.5 10C17.5 14.125 14.125 17.5 10 17.5C5.875 17.5 2.5 14.125 2.5 10C2.5 5.875 5.875 2.5 10 2.5ZM10 1.25C5.1875 1.25 1.25 5.1875 1.25 10C1.25 14.8125 5.1875 18.75 10 18.75C14.8125 18.75 18.75 14.8125 18.75 10C18.75 5.1875 14.8125 1.25 10 1.25Z" fill="white"/>
+                        <path d="M15 9.375H10.625V5H9.375V9.375H5V10.625H9.375V15H10.625V10.625H15V9.375Z" fill="white"/>
+                      </svg></button>
+                      <!-- Plus knopkasi -->
+                    </div>
+                  </div>
+              </div>
+          </div>
+          </div>
+          <div class="card-container">
+          <div class="card">
+              <img src="./IMG/Item Image (2).jpg" alt="Item Image.jpg">
+              <div class="card-content">
+                  <p class="Waffle">Macaron</p>
+                  <p class="title">Macaron Mix of Five</p>
+                  <p class="price">$8.00</p>
+                  <button class="cart-button" id="b3"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+                      <g clip-path="url(#clip0_331_197)">
+                        <path d="M6.5835 18.75C7.27385 18.75 7.8335 18.1904 7.8335 17.5C7.8335 16.8096 7.27385 16.25 6.5835 16.25C5.89314 16.25 5.3335 16.8096 5.3335 17.5C5.3335 18.1904 5.89314 18.75 6.5835 18.75Z" fill="#C73B0F"/>
+                        <path d="M15.3335 18.75C16.0239 18.75 16.5835 18.1904 16.5835 17.5C16.5835 16.8096 16.0239 16.25 15.3335 16.25C14.6431 16.25 14.0835 16.8096 14.0835 17.5C14.0835 18.1904 14.6431 18.75 15.3335 18.75Z" fill="#C73B0F"/>
+                        <path d="M3.446 1.7525C3.41769 1.61087 3.3412 1.48341 3.22954 1.3918C3.11787 1.3002 2.97793 1.25009 2.8335 1.25H0.333496V2.5H2.321L4.721 14.4975C4.7493 14.6391 4.82579 14.7666 4.93746 14.8582C5.04912 14.9498 5.18906 14.9999 5.3335 15H16.5835V13.75H5.846L5.346 11.25H16.5835C16.7257 11.25 16.8636 11.2015 16.9745 11.1125C17.0854 11.0235 17.1626 10.8994 17.1935 10.7606L18.611 4.375H17.3316L16.0822 10H5.096L3.446 1.7525Z" fill="#C73B0F"/>
+                        <path d="M11.5835 3.75V1.25H10.3335V3.75H7.8335V5H10.3335V7.5H11.5835V5H14.0835V3.75H11.5835Z" fill="#C73B0F"/>
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_331_197">
+                          <rect width="20" height="20" fill="white" transform="translate(0.333496)"/>
+                        </clipPath>
+                      </defs>
+                    </svg>Add to Cart
+                  </button>
+                  <div class="main__product-number" id="n3">
+                    <div class="center">
+                      <button class="main__product-btn fa-reg minus" data-symbol="-"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M10 2.5C14.125 2.5 17.5 5.875 17.5 10C17.5 14.125 14.125 17.5 10 17.5C5.875 17.5 2.5 14.125 2.5 10C2.5 5.875 5.875 2.5 10 2.5ZM10 1.25C5.1875 1.25 1.25 5.1875 1.25 10C1.25 14.8125 5.1875 18.75 10 18.75C14.8125 18.75 18.75 14.8125 18.75 10C18.75 5.1875 14.8125 1.25 10 1.25Z" fill="white"/>
+                        <path d="M5 9.375H15V10.625H5V9.375Z" fill="white"/>
+                      </svg></button>
+                      <!-- Minus knopkasi -->
+                      <output class="main__product-num">0</output>
+                    
+                    
+                      <button class="main__product-btn fa-reg plus" data-symbol="+"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M10 2.5C14.125 2.5 17.5 5.875 17.5 10C17.5 14.125 14.125 17.5 10 17.5C5.875 17.5 2.5 14.125 2.5 10C2.5 5.875 5.875 2.5 10 2.5ZM10 1.25C5.1875 1.25 1.25 5.1875 1.25 10C1.25 14.8125 5.1875 18.75 10 18.75C14.8125 18.75 18.75 14.8125 18.75 10C18.75 5.1875 14.8125 1.25 10 1.25Z" fill="white"/>
+                        <path d="M15 9.375H10.625V5H9.375V9.375H5V10.625H9.375V15H10.625V10.625H15V9.375Z" fill="white"/>
+                      </svg></button>
+                      <!-- Plus knopkasi -->
+                    </div>
+                  </div>
+              </div>
+          </div>
+          </div>
+        </div>
+        <div class="card-menu2">
+          <div class="card-container">
+          <div class="card">
+              <img src="./IMG/Item Image (3).jpg" alt="Item Image.jpg">
+              <div class="card-content">
+                  <p class="Waffle">Tiramisu</p>
+                  <p class="title">Classic Tiramisu</p>
+                  <p class="price">$5.50</p>
+                  <button class="cart-button" id="b4"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+                      <g clip-path="url(#clip0_331_197)">
+                        <path d="M6.5835 18.75C7.27385 18.75 7.8335 18.1904 7.8335 17.5C7.8335 16.8096 7.27385 16.25 6.5835 16.25C5.89314 16.25 5.3335 16.8096 5.3335 17.5C5.3335 18.1904 5.89314 18.75 6.5835 18.75Z" fill="#C73B0F"/>
+                        <path d="M15.3335 18.75C16.0239 18.75 16.5835 18.1904 16.5835 17.5C16.5835 16.8096 16.0239 16.25 15.3335 16.25C14.6431 16.25 14.0835 16.8096 14.0835 17.5C14.0835 18.1904 14.6431 18.75 15.3335 18.75Z" fill="#C73B0F"/>
+                        <path d="M3.446 1.7525C3.41769 1.61087 3.3412 1.48341 3.22954 1.3918C3.11787 1.3002 2.97793 1.25009 2.8335 1.25H0.333496V2.5H2.321L4.721 14.4975C4.7493 14.6391 4.82579 14.7666 4.93746 14.8582C5.04912 14.9498 5.18906 14.9999 5.3335 15H16.5835V13.75H5.846L5.346 11.25H16.5835C16.7257 11.25 16.8636 11.2015 16.9745 11.1125C17.0854 11.0235 17.1626 10.8994 17.1935 10.7606L18.611 4.375H17.3316L16.0822 10H5.096L3.446 1.7525Z" fill="#C73B0F"/>
+                        <path d="M11.5835 3.75V1.25H10.3335V3.75H7.8335V5H10.3335V7.5H11.5835V5H14.0835V3.75H11.5835Z" fill="#C73B0F"/>
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_331_197">
+                          <rect width="20" height="20" fill="white" transform="translate(0.333496)"/>
+                        </clipPath>
+                      </defs>
+                    </svg>Add to Cart
+                  </button>
+                  <div class="main__product-number" id="n4">
+                    <div class="center">
+                      <button class="main__product-btn fa-reg minus" data-symbol="-"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M10 2.5C14.125 2.5 17.5 5.875 17.5 10C17.5 14.125 14.125 17.5 10 17.5C5.875 17.5 2.5 14.125 2.5 10C2.5 5.875 5.875 2.5 10 2.5ZM10 1.25C5.1875 1.25 1.25 5.1875 1.25 10C1.25 14.8125 5.1875 18.75 10 18.75C14.8125 18.75 18.75 14.8125 18.75 10C18.75 5.1875 14.8125 1.25 10 1.25Z" fill="white"/>
+                        <path d="M5 9.375H15V10.625H5V9.375Z" fill="white"/>
+                      </svg></button>
+                      <!-- Minus knopkasi -->
+                      <output class="main__product-num">0</output>
+                    
+                    
+                      <button class="main__product-btn fa-reg plus" data-symbol="+"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M10 2.5C14.125 2.5 17.5 5.875 17.5 10C17.5 14.125 14.125 17.5 10 17.5C5.875 17.5 2.5 14.125 2.5 10C2.5 5.875 5.875 2.5 10 2.5ZM10 1.25C5.1875 1.25 1.25 5.1875 1.25 10C1.25 14.8125 5.1875 18.75 10 18.75C14.8125 18.75 18.75 14.8125 18.75 10C18.75 5.1875 14.8125 1.25 10 1.25Z" fill="white"/>
+                        <path d="M15 9.375H10.625V5H9.375V9.375H5V10.625H9.375V15H10.625V10.625H15V9.375Z" fill="white"/>
+                      </svg></button>
+                      <!-- Plus knopkasi -->
+                      </div>
+                  </div>
+              </div>
+          </div>
+          </div>
+          <div class="card-container">
+          <div class="card">
+              <img src="./IMG/Item Image (4).jpg" alt="Item Image.jpg">
+              <div class="card-content">
+                  <p class="Waffle">Baklava</p>
+                  <p class="title">Pistachio Baklava</p>
+                  <p class="price">$4.00</p>
+                  <button class="cart-button" id="b5"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+                      <g clip-path="url(#clip0_331_197)">
+                        <path d="M6.5835 18.75C7.27385 18.75 7.8335 18.1904 7.8335 17.5C7.8335 16.8096 7.27385 16.25 6.5835 16.25C5.89314 16.25 5.3335 16.8096 5.3335 17.5C5.3335 18.1904 5.89314 18.75 6.5835 18.75Z" fill="#C73B0F"/>
+                        <path d="M15.3335 18.75C16.0239 18.75 16.5835 18.1904 16.5835 17.5C16.5835 16.8096 16.0239 16.25 15.3335 16.25C14.6431 16.25 14.0835 16.8096 14.0835 17.5C14.0835 18.1904 14.6431 18.75 15.3335 18.75Z" fill="#C73B0F"/>
+                        <path d="M3.446 1.7525C3.41769 1.61087 3.3412 1.48341 3.22954 1.3918C3.11787 1.3002 2.97793 1.25009 2.8335 1.25H0.333496V2.5H2.321L4.721 14.4975C4.7493 14.6391 4.82579 14.7666 4.93746 14.8582C5.04912 14.9498 5.18906 14.9999 5.3335 15H16.5835V13.75H5.846L5.346 11.25H16.5835C16.7257 11.25 16.8636 11.2015 16.9745 11.1125C17.0854 11.0235 17.1626 10.8994 17.1935 10.7606L18.611 4.375H17.3316L16.0822 10H5.096L3.446 1.7525Z" fill="#C73B0F"/>
+                        <path d="M11.5835 3.75V1.25H10.3335V3.75H7.8335V5H10.3335V7.5H11.5835V5H14.0835V3.75H11.5835Z" fill="#C73B0F"/>
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_331_197">
+                          <rect width="20" height="20" fill="white" transform="translate(0.333496)"/>
+                        </clipPath>
+                      </defs>
+                    </svg>Add to Cart
+                  </button>
+                  <div class="main__product-number" id="n5">
+                    <div class="center">
+                      <button class="main__product-btn fa-reg minus" data-symbol="-"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M10 2.5C14.125 2.5 17.5 5.875 17.5 10C17.5 14.125 14.125 17.5 10 17.5C5.875 17.5 2.5 14.125 2.5 10C2.5 5.875 5.875 2.5 10 2.5ZM10 1.25C5.1875 1.25 1.25 5.1875 1.25 10C1.25 14.8125 5.1875 18.75 10 18.75C14.8125 18.75 18.75 14.8125 18.75 10C18.75 5.1875 14.8125 1.25 10 1.25Z" fill="white"/>
+                        <path d="M5 9.375H15V10.625H5V9.375Z" fill="white"/>
+                      </svg></button>
+                      <!-- Minus knopkasi -->
+                      <output class="main__product-num">0</output>
+                    
+                    
+                      <button class="main__product-btn fa-reg plus" data-symbol="+"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M10 2.5C14.125 2.5 17.5 5.875 17.5 10C17.5 14.125 14.125 17.5 10 17.5C5.875 17.5 2.5 14.125 2.5 10C2.5 5.875 5.875 2.5 10 2.5ZM10 1.25C5.1875 1.25 1.25 5.1875 1.25 10C1.25 14.8125 5.1875 18.75 10 18.75C14.8125 18.75 18.75 14.8125 18.75 10C18.75 5.1875 14.8125 1.25 10 1.25Z" fill="white"/>
+                        <path d="M15 9.375H10.625V5H9.375V9.375H5V10.625H9.375V15H10.625V10.625H15V9.375Z" fill="white"/>
+                      </svg></button>
+                      <!-- Plus knopkasi -->
+                    </div>
+                  </div>
+              </div>
+          </div>
+          </div>
+          <div class="card-container">
+          <div class="card">
+              <img src="./IMG/Item Image (5).jpg" alt="Item Image.jpg">
+              <div class="card-content">
+                  <p class="Waffle">Pie</p>
+                  <p class="title">Lemon Meringue Pie</p>
+                  <p class="price">$5.00</p>
+                  <button class="cart-button" id="b6"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+                      <g clip-path="url(#clip0_331_197)">
+                        <path d="M6.5835 18.75C7.27385 18.75 7.8335 18.1904 7.8335 17.5C7.8335 16.8096 7.27385 16.25 6.5835 16.25C5.89314 16.25 5.3335 16.8096 5.3335 17.5C5.3335 18.1904 5.89314 18.75 6.5835 18.75Z" fill="#C73B0F"/>
+                        <path d="M15.3335 18.75C16.0239 18.75 16.5835 18.1904 16.5835 17.5C16.5835 16.8096 16.0239 16.25 15.3335 16.25C14.6431 16.25 14.0835 16.8096 14.0835 17.5C14.0835 18.1904 14.6431 18.75 15.3335 18.75Z" fill="#C73B0F"/>
+                        <path d="M3.446 1.7525C3.41769 1.61087 3.3412 1.48341 3.22954 1.3918C3.11787 1.3002 2.97793 1.25009 2.8335 1.25H0.333496V2.5H2.321L4.721 14.4975C4.7493 14.6391 4.82579 14.7666 4.93746 14.8582C5.04912 14.9498 5.18906 14.9999 5.3335 15H16.5835V13.75H5.846L5.346 11.25H16.5835C16.7257 11.25 16.8636 11.2015 16.9745 11.1125C17.0854 11.0235 17.1626 10.8994 17.1935 10.7606L18.611 4.375H17.3316L16.0822 10H5.096L3.446 1.7525Z" fill="#C73B0F"/>
+                        <path d="M11.5835 3.75V1.25H10.3335V3.75H7.8335V5H10.3335V7.5H11.5835V5H14.0835V3.75H11.5835Z" fill="#C73B0F"/>
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_331_197">
+                          <rect width="20" height="20" fill="white" transform="translate(0.333496)"/>
+                        </clipPath>
+                      </defs>
+                    </svg>Add to Cart
+                  </button>
+                  <div class="main__product-number" id="n6">
+                    <div class="center">
+                      <button class="main__product-btn fa-reg minus" data-symbol="-"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M10 2.5C14.125 2.5 17.5 5.875 17.5 10C17.5 14.125 14.125 17.5 10 17.5C5.875 17.5 2.5 14.125 2.5 10C2.5 5.875 5.875 2.5 10 2.5ZM10 1.25C5.1875 1.25 1.25 5.1875 1.25 10C1.25 14.8125 5.1875 18.75 10 18.75C14.8125 18.75 18.75 14.8125 18.75 10C18.75 5.1875 14.8125 1.25 10 1.25Z" fill="white"/>
+                        <path d="M5 9.375H15V10.625H5V9.375Z" fill="white"/>
+                      </svg></button>
+                      <!-- Minus knopkasi -->
+                      <output class="main__product-num">0</output>
+                    
+                    
+                      <button class="main__product-btn fa-reg plus" data-symbol="+"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M10 2.5C14.125 2.5 17.5 5.875 17.5 10C17.5 14.125 14.125 17.5 10 17.5C5.875 17.5 2.5 14.125 2.5 10C2.5 5.875 5.875 2.5 10 2.5ZM10 1.25C5.1875 1.25 1.25 5.1875 1.25 10C1.25 14.8125 5.1875 18.75 10 18.75C14.8125 18.75 18.75 14.8125 18.75 10C18.75 5.1875 14.8125 1.25 10 1.25Z" fill="white"/>
+                        <path d="M15 9.375H10.625V5H9.375V9.375H5V10.625H9.375V15H10.625V10.625H15V9.375Z" fill="white"/>
+                      </svg></button>
+                      <!-- Plus knopkasi -->
+                    </div>
+                  </div>
+                </div>
+          </div>
+          </div>
+        </div>
+        <div class="card-menu3">
+          <div class="card-container">
+          <div class="card">
+              <img src="./IMG/Item Image (6).jpg" alt="Item Image.jpg">
+              <div class="card-content">
+                  <p class="Waffle">Cake</p>
+                  <p class="title">Red Velvet Cake</p>
+                  <p class="price">$4.50</p>
+                  <button class="cart-button" id="b7"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+                      <g clip-path="url(#clip0_331_197)">
+                        <path d="M6.5835 18.75C7.27385 18.75 7.8335 18.1904 7.8335 17.5C7.8335 16.8096 7.27385 16.25 6.5835 16.25C5.89314 16.25 5.3335 16.8096 5.3335 17.5C5.3335 18.1904 5.89314 18.75 6.5835 18.75Z" fill="#C73B0F"/>
+                        <path d="M15.3335 18.75C16.0239 18.75 16.5835 18.1904 16.5835 17.5C16.5835 16.8096 16.0239 16.25 15.3335 16.25C14.6431 16.25 14.0835 16.8096 14.0835 17.5C14.0835 18.1904 14.6431 18.75 15.3335 18.75Z" fill="#C73B0F"/>
+                        <path d="M3.446 1.7525C3.41769 1.61087 3.3412 1.48341 3.22954 1.3918C3.11787 1.3002 2.97793 1.25009 2.8335 1.25H0.333496V2.5H2.321L4.721 14.4975C4.7493 14.6391 4.82579 14.7666 4.93746 14.8582C5.04912 14.9498 5.18906 14.9999 5.3335 15H16.5835V13.75H5.846L5.346 11.25H16.5835C16.7257 11.25 16.8636 11.2015 16.9745 11.1125C17.0854 11.0235 17.1626 10.8994 17.1935 10.7606L18.611 4.375H17.3316L16.0822 10H5.096L3.446 1.7525Z" fill="#C73B0F"/>
+                        <path d="M11.5835 3.75V1.25H10.3335V3.75H7.8335V5H10.3335V7.5H11.5835V5H14.0835V3.75H11.5835Z" fill="#C73B0F"/>
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_331_197">
+                          <rect width="20" height="20" fill="white" transform="translate(0.333496)"/>
+                        </clipPath>
+                      </defs>
+                    </svg>Add to Cart
+                  </button>
+                  <div class="main__product-number" id="n7">
+                    <div class="center">
+                      <button class="main__product-btn fa-reg minus" data-symbol="-"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M10 2.5C14.125 2.5 17.5 5.875 17.5 10C17.5 14.125 14.125 17.5 10 17.5C5.875 17.5 2.5 14.125 2.5 10C2.5 5.875 5.875 2.5 10 2.5ZM10 1.25C5.1875 1.25 1.25 5.1875 1.25 10C1.25 14.8125 5.1875 18.75 10 18.75C14.8125 18.75 18.75 14.8125 18.75 10C18.75 5.1875 14.8125 1.25 10 1.25Z" fill="white"/>
+                        <path d="M5 9.375H15V10.625H5V9.375Z" fill="white"/>
+                      </svg></button>
+                      <!-- Minus knopkasi -->
+                      <output class="main__product-num">0</output>
+                    
+                    
+                      <button class="main__product-btn fa-reg plus" data-symbol="+"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M10 2.5C14.125 2.5 17.5 5.875 17.5 10C17.5 14.125 14.125 17.5 10 17.5C5.875 17.5 2.5 14.125 2.5 10C2.5 5.875 5.875 2.5 10 2.5ZM10 1.25C5.1875 1.25 1.25 5.1875 1.25 10C1.25 14.8125 5.1875 18.75 10 18.75C14.8125 18.75 18.75 14.8125 18.75 10C18.75 5.1875 14.8125 1.25 10 1.25Z" fill="white"/>
+                        <path d="M15 9.375H10.625V5H9.375V9.375H5V10.625H9.375V15H10.625V10.625H15V9.375Z" fill="white"/>
+                      </svg></button>
+                      <!-- Plus knopkasi -->
+                    </div>
+                  </div>
+                </div>
+          </div>
+          </div>
+          <div class="card-container">
+          <div class="card">
+              <img src="./IMG/Item Image (7).jpg" alt="Item Image.jpg">
+              <div class="card-content">
+                  <p class="Waffle">Brownie</p>
+                  <p class="title">Salted Caramel Brownie</p>
+                  <p class="price">$5.50</p>
+                  <button class="cart-button" id="b8"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+                      <g clip-path="url(#clip0_331_197)">
+                        <path d="M6.5835 18.75C7.27385 18.75 7.8335 18.1904 7.8335 17.5C7.8335 16.8096 7.27385 16.25 6.5835 16.25C5.89314 16.25 5.3335 16.8096 5.3335 17.5C5.3335 18.1904 5.89314 18.75 6.5835 18.75Z" fill="#C73B0F"/>
+                        <path d="M15.3335 18.75C16.0239 18.75 16.5835 18.1904 16.5835 17.5C16.5835 16.8096 16.0239 16.25 15.3335 16.25C14.6431 16.25 14.0835 16.8096 14.0835 17.5C14.0835 18.1904 14.6431 18.75 15.3335 18.75Z" fill="#C73B0F"/>
+                        <path d="M3.446 1.7525C3.41769 1.61087 3.3412 1.48341 3.22954 1.3918C3.11787 1.3002 2.97793 1.25009 2.8335 1.25H0.333496V2.5H2.321L4.721 14.4975C4.7493 14.6391 4.82579 14.7666 4.93746 14.8582C5.04912 14.9498 5.18906 14.9999 5.3335 15H16.5835V13.75H5.846L5.346 11.25H16.5835C16.7257 11.25 16.8636 11.2015 16.9745 11.1125C17.0854 11.0235 17.1626 10.8994 17.1935 10.7606L18.611 4.375H17.3316L16.0822 10H5.096L3.446 1.7525Z" fill="#C73B0F"/>
+                        <path d="M11.5835 3.75V1.25H10.3335V3.75H7.8335V5H10.3335V7.5H11.5835V5H14.0835V3.75H11.5835Z" fill="#C73B0F"/>
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_331_197">
+                          <rect width="20" height="20" fill="white" transform="translate(0.333496)"/>
+                        </clipPath>
+                      </defs>
+                    </svg>Add to Cart
+                  </button>
+                  <div class="main__product-number" id="n8">
+                    <div class="center">
+                      <button class="main__product-btn fa-reg minus" data-symbol="-"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M10 2.5C14.125 2.5 17.5 5.875 17.5 10C17.5 14.125 14.125 17.5 10 17.5C5.875 17.5 2.5 14.125 2.5 10C2.5 5.875 5.875 2.5 10 2.5ZM10 1.25C5.1875 1.25 1.25 5.1875 1.25 10C1.25 14.8125 5.1875 18.75 10 18.75C14.8125 18.75 18.75 14.8125 18.75 10C18.75 5.1875 14.8125 1.25 10 1.25Z" fill="white"/>
+                        <path d="M5 9.375H15V10.625H5V9.375Z" fill="white"/>
+                      </svg></button>
+                      <!-- Minus knopkasi -->
+                      <output class="main__product-num">0</output>
+                    
+                    
+                      <button class="main__product-btn fa-reg plus" data-symbol="+"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M10 2.5C14.125 2.5 17.5 5.875 17.5 10C17.5 14.125 14.125 17.5 10 17.5C5.875 17.5 2.5 14.125 2.5 10C2.5 5.875 5.875 2.5 10 2.5ZM10 1.25C5.1875 1.25 1.25 5.1875 1.25 10C1.25 14.8125 5.1875 18.75 10 18.75C14.8125 18.75 18.75 14.8125 18.75 10C18.75 5.1875 14.8125 1.25 10 1.25Z" fill="white"/>
+                        <path d="M15 9.375H10.625V5H9.375V9.375H5V10.625H9.375V15H10.625V10.625H15V9.375Z" fill="white"/>
+                      </svg></button>
+                      <!-- Plus knopkasi -->
+                    </div>
+                  </div>
+              </div>
+          </div>
+          </div>
+          <div class="card-container">
+          <div class="card">
+              <img src="./IMG/Item Image (8).jpg" alt="Item Image.jpg" >
+              <div class="card-content">
+                  <p class="Waffle">Panna Cotta</p>
+                  <p class="title">Vanilla Panna Cotta</p>
+                  <p class="price">$6.50</p>
+                  <button class="cart-button" id="b9"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+                      <g clip-path="url(#clip0_331_197)">
+                        <path d="M6.5835 18.75C7.27385 18.75 7.8335 18.1904 7.8335 17.5C7.8335 16.8096 7.27385 16.25 6.5835 16.25C5.89314 16.25 5.3335 16.8096 5.3335 17.5C5.3335 18.1904 5.89314 18.75 6.5835 18.75Z" fill="#C73B0F"/>
+                        <path d="M15.3335 18.75C16.0239 18.75 16.5835 18.1904 16.5835 17.5C16.5835 16.8096 16.0239 16.25 15.3335 16.25C14.6431 16.25 14.0835 16.8096 14.0835 17.5C14.0835 18.1904 14.6431 18.75 15.3335 18.75Z" fill="#C73B0F"/>
+                        <path d="M3.446 1.7525C3.41769 1.61087 3.3412 1.48341 3.22954 1.3918C3.11787 1.3002 2.97793 1.25009 2.8335 1.25H0.333496V2.5H2.321L4.721 14.4975C4.7493 14.6391 4.82579 14.7666 4.93746 14.8582C5.04912 14.9498 5.18906 14.9999 5.3335 15H16.5835V13.75H5.846L5.346 11.25H16.5835C16.7257 11.25 16.8636 11.2015 16.9745 11.1125C17.0854 11.0235 17.1626 10.8994 17.1935 10.7606L18.611 4.375H17.3316L16.0822 10H5.096L3.446 1.7525Z" fill="#C73B0F"/>
+                        <path d="M11.5835 3.75V1.25H10.3335V3.75H7.8335V5H10.3335V7.5H11.5835V5H14.0835V3.75H11.5835Z" fill="#C73B0F"/>
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_331_197">
+                          <rect width="20" height="20" fill="white" transform="translate(0.333496)"/>
+                        </clipPath>
+                      </defs>
+                    </svg>Add to Cart
+                  </button>
+                  <div class="main__product-number" id="n9">
+                    <div class="center">
+                      <button class="main__product-btn fa-reg minus" data-symbol="-"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M10 2.5C14.125 2.5 17.5 5.875 17.5 10C17.5 14.125 14.125 17.5 10 17.5C5.875 17.5 2.5 14.125 2.5 10C2.5 5.875 5.875 2.5 10 2.5ZM10 1.25C5.1875 1.25 1.25 5.1875 1.25 10C1.25 14.8125 5.1875 18.75 10 18.75C14.8125 18.75 18.75 14.8125 18.75 10C18.75 5.1875 14.8125 1.25 10 1.25Z" fill="white"/>
+                        <path d="M5 9.375H15V10.625H5V9.375Z" fill="white"/>
+                      </svg></button>
+                      <!-- Minus knopkasi -->
+                      <output class="main__product-num">0</output>
+                    
+                    
+                      <button class="main__product-btn fa-reg plus" data-symbol="+"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M10 2.5C14.125 2.5 17.5 5.875 17.5 10C17.5 14.125 14.125 17.5 10 17.5C5.875 17.5 2.5 14.125 2.5 10C2.5 5.875 5.875 2.5 10 2.5ZM10 1.25C5.1875 1.25 1.25 5.1875 1.25 10C1.25 14.8125 5.1875 18.75 10 18.75C14.8125 18.75 18.75 14.8125 18.75 10C18.75 5.1875 14.8125 1.25 10 1.25Z" fill="white"/>
+                        <path d="M15 9.375H10.625V5H9.375V9.375H5V10.625H9.375V15H10.625V10.625H15V9.375Z" fill="white"/>
+                      </svg></button>
+                      <!-- Plus knopkasi -->
+                    </div>
+                  </div>
+                </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="shop-card">
+        <h1 class="shop-card__title">Your Cart (0)</h1>
+        <div class="shop-card__none">
+          <img src="./IMG/none.png" alt="">
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
